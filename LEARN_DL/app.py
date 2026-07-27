@@ -36,7 +36,7 @@ def study_assistant(question, persona):
 
     try:
         response = client.models.generate_content(
-            model="gemini-2.5-flash-lite",
+            model="gemini-3.6-flash",
             contents=question,
             config=types.GenerateContentConfig(
                 system_instruction=system_prompt,
