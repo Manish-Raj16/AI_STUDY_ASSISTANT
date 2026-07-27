@@ -83,7 +83,7 @@ Choose a personality before submitting your question.
 
     submit_btn="Get Answer",
     clear_btn="Clear",
-    allow_flagging="never"
+    # allow_flagging="never"
 )
 
 # demo.launch()
